@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #87CEEB, #00BFFF); /* Light Blue Gradient */
+    color: #001F3F; /* Dark Blue Text Color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.reset-container {
+    background: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Shifted down */
+}
+
+.reset-container h2 {
+    margin-bottom: 20px;
+    color: #001F3F; /* Dark Blue Text Color */
+}
+
+.reset-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    border: 1px solid #001F3F; /* Dark Blue Border */
+    border-radius: 5px;
+    background: transparent;
+    color: #001F3F; /* Dark Blue Text Color */
+}
+
+.reset-button {
+    width: 50%; /* Centered Reset Password Button */
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background: #4b6cb7; /* Blue Background */
+    color: #fff;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background: #364d8c; /* Darker Blue on Hover */
+}
+
+.back-to-login {
+    margin-top: 20px;
+    color: #001F3F; /* Dark Blue Text Color */
+    text-decoration: none;
+    display: inline-block;
+}
